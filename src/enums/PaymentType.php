@@ -1,7 +1,11 @@
 <?php
 declare(strict_types=1);
+
 namespace fz54\enums;
-class PaymentType
+
+use MyCLabs\Enum\Enum;
+
+class PaymentType extends Enum
 {
     public const PAYMENT_TYPE_CASH = 0; // наличными
     public const PAYMENT_TYPE_ELECTRON = 1; // электронными

@@ -1,7 +1,11 @@
 <?php
 declare(strict_types=1);
+
 namespace fz54\enums;
-class VatTax
+
+use MyCLabs\Enum\Enum;
+
+class VatTax extends Enum
 {
     public const TAX_NONE = 'none';
     public const TAX_VAT0 = 'vat0';

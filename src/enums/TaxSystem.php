@@ -3,7 +3,9 @@ declare(strict_types=1);
 
 namespace fz54\enums;
 
-class TaxSystem
+use MyCLabs\Enum\Enum;
+
+class TaxSystem extends Enum
 {
     /** @var int */
     public const TAG = 1055;

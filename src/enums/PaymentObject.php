@@ -1,7 +1,11 @@
 <?php
 declare(strict_types=1);
+
 namespace fz54\enums;
-class PaymentObject extends SplEnum
+
+use MyCLabs\Enum\Enum;
+
+class PaymentObject extends Enum
 {
     //TODO: http://www.consultant.ru/document/cons_doc_LAW_214339/cfdfbc0cb69618bfb358a7d612a1ac60149a7525/#dst103897
     public const TAG = 1212; //признак предмета расчета
