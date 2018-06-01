@@ -1,0 +1,13 @@
+{
+    "name": "chr/fz54",
+    "require": {
+        "myclabs/php-enum": "^1.6",
+        "phpunit/phpunit": "^7.2"
+    },
+    "authors": [
+        {
+            "name": "Александр Луценко",
+            "email": "alex.chorry@gmail.com"
+        }
+    ]
+}
